@@ -5,6 +5,10 @@ fn main() {
     println!("{}", stuff.2);
     // Arrays can hold a max of 32 items
     let arr:[i32;3] = [12,2345,34554];
-    println!("{}", arr[0]);
+    
+    // Loop over arr
+    for num in arr.iter() {
+        println!("{}", num)
+    }
 }
 ```
