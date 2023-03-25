@@ -10,5 +10,11 @@ fn main() {
     for num in arr.iter() {
         println!("{}", num)
     }
+    
+    // Nested for loop
+    let arr:[(i32, i32);3] = [(12,2345),(34554,3323), (2,4)];
+    for (a, b) in arr.iter() {
+        println!("{}, {}", a, b)
+    }
 }
 ```
